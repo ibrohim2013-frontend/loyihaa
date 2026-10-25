@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <a class="logo" href="../index.html"><img src="../images/Group 16015.png" alt="Аудитерия"></a>
+    <nav class="header-nav">
+      <a href="../kak-kupit/kak-kupit.html">Как купить</a>
+      <a href="../faq/faq.html">F.A.Q</a>
+      <a href="../kontakty/kontakty.html">Контакты</a>
+      <a href="../men-haqimda/men-haqimda.html">Men haqimda</a>
+    </nav>
+    <div class="header-right">
+      <div class="search-box"><img src="../images/search.png" alt=""><input type="text" placeholder="Поиск..."></div>
+      <input type="checkbox" id="theme" class="theme-toggle">
+      <label for="theme" class="theme-label" title="Dark mode" aria-label="Dark mode"></label>
+      <input type="checkbox" id="reg-toggle" class="modal-toggle">
+      <label for="reg-toggle" class="btn-outline">Ro'yxatdan o'tish</label>
+      <div class="modal">
+        <label for="reg-toggle" class="modal-overlay"></label>
+        <div class="modal-content">
+          <label for="reg-toggle" class="close-btn" title="Yopish">×</label>
+          <h2>Ro'yxatdan o'tish</h2>
+          <form>
+            <input type="text" placeholder="Ismingiz" required>
+            <input type="text" placeholder="Familiyangiz" required>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Parolingiz" required>
+            <button type="submit">Ro'yxatdan o'tish</button>
+          </form>
+        </div>
+      </div>
+      <input type="checkbox" id="login-toggle" class="modal-toggle">
+      <label for="login-toggle" class="btn-filled">Kirish</label>
+      <div class="modal">
+        <label for="login-toggle" class="modal-overlay"></label>
+        <div class="modal-content">
+          <label for="login-toggle" class="close-btn" title="Yopish">×</label>
+          <h2>Kirish</h2>
+          <form>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Parolingiz" required>
+            <button type="submit">Kirish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="audiobook-section">
+    <div class="container">
+      <p style="margin-bottom:25px"><a href="../index.html">← Bosh sahifa</a></p>
+      <div class="audiobook-wrapper">
+        <div class="audiobook-left">
+          <div class="audiobook-cover"><img src="../images/15-img.png" alt="Тьма императора. Книга вторая"></div>
+          <div class="audiobook-player">
+            <button class="audiobook-player-text">Слушать фрагмент</button>
+            <div class="audiobook-player-icons">
+              <button class="audiobook-icon-btn" data-seek="-10" aria-label="Назад"><i class="fa-solid fa-backward-step"></i></button>
+              <button class="audiobook-icon-btn audiobook-play" aria-label="Играть"><i class="fa-solid fa-play"></i></button>
+              <button class="audiobook-icon-btn" data-seek="10" aria-label="Вперёд"><i class="fa-solid fa-forward-step"></i></button>
+            </div>
+          </div>
+                  </div>
+        <div class="audiobook-right">
+          <div class="audiobook-title-row">
+            <h2>Тьма императора. Книга вторая</h2>
+            <div class="audiobook-indicators"><span class="audiobook-age-tag">16+</span><span class="audiobook-bookmark-tag" style="cursor:pointer"><i class="fa-regular fa-bookmark"></i></span></div>
+          </div>
+          <div class="audiobook-info-row">
+            <div class="audiobook-creators"><p>Автор: <a href="#">Маргарет Митчелл</a></p><p>Читает: <a href="#">Алексей Сквозной</a></p></div>
+            <div class="audiobook-rating-box"><span class="audiobook-rating-number">4,5</span><span class="audiobook-rating-desc">Рейтинг аудитории<br><small>9 570 оценок</small></span></div>
+          </div>
+          <div class="details">
+            <div>Жанр<b>Фэнтези</b></div><div>Длительность<b>9 ч 50 мин</b></div><div>Год<b>2020</b></div><div>Издатель<b>Аудитерия</b></div>
+          </div>
+          <div class="audiobook-synopsis"><p>«Тьма императора. Книга вторая» — аудиокнига, которую хочется слушать в дороге, дома или перед сном. Автор — Маргарет Митчелл. История затягивает с первых минут, а голос чтеца помогает прожить её вместе с героями...</p><p class="more-text">Судьбы героев переплетаются, тайны раскрываются одна за другой, и остановиться становится невозможно. Книга подойдёт тем, кто любит фэнтези и хорошую озвучку.</p></div>
+          <div class="audiobook-social-links">
+            <a href="#" class="audiobook-social-item" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#" class="audiobook-social-item" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="audiobook-social-item" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="audiobook-social-item" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="audiobook-buttons-row"><button class="audiobook-buy-btn">Купить за 199 руб.</button><button class="audiobook-desktop-btn">Отправить на рабочий стол</button></div>
+        </div>
+      </div>
+
+        <div class="reveal"><h3>Отзывы слушателей</h3><div class="reviews">
+        <div class="review"><div class="stars">★★★★★</div><p>Слушала в дороге на работу — не заметила, как доехала. Чтец великолепен!</p><div class="who">Анна К.</div></div>
+        <div class="review"><div class="stars">★★★★★</div><p>Отличная история, держит до самого конца. Рекомендую.</p><div class="who">Дмитрий П.</div></div>
+        <div class="review"><div class="stars">★★★★★</div><p>Хорошее качество записи и приятный голос. Куплю продолжение.</p><div class="who">Елена С.</div></div>
+        </div></div>
+        <div class="reveal"><h3>Вам может понравиться</h3><div class="related">
+        <a class="card" href="../папки/1-kitob.html"><img src="../images/1-img.png" alt="Завтра будет вчера"><p class="author">Ульяна Соболева</p><p class="title">Завтра будет вчера</p></a>
+        <a class="card" href="../папки/2-kitob.html"><img src="../images/2-img.png" alt="Низший. Книга шестая"><p class="author">Линкольн Чайлд</p><p class="title">Низший. Книга шестая</p></a>
+        <a class="card" href="../папки/3-kitob.html"><img src="../images/3-img.png" alt="Тайник"><p class="author">Жена башмачника</p><p class="title">Тайник</p></a>
+        <a class="card" href="../папки/4-kitob.html"><img src="../images/4-img.png" alt="Ночная смена. Крепость живых..."><p class="author">Лира Алая</p><p class="title">Ночная смена. Крепость живых...</p></a>
+        </div></div>
+        <div class="book-nav"><a href="../папки/14-kitob.html">← Не твоя Людмила</a><a href="../папки/1-kitob.html">Завтра будет вчера →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand"><img src="../images/Group 16015.png" alt="Аудитерия"></div>
+      <div class="footer-col"><h3>Жанры</h3><a href="../index.html#novinki">Роман</a><a href="../index.html#novinki">Детектив</a><a href="../index.html#novinki">Фэнтези</a><a href="../index.html#novinki">Классика</a><a href="../index.html#novinki">Все жанры</a></div>
+      <div class="footer-col"><h3>Категории</h3><a href="../index.html#popular">Популярное</a><a href="../index.html#novinki">Новинки</a><a href="../index.html#editor">Выбор редакции</a></div>
+      <div class="footer-col"><h3>Разделы</h3><a href="../kak-kupit/kak-kupit.html">Как купить</a><a href="../faq/faq.html">Часто задаваемые вопросы</a><a href="../kontakty/kontakty.html">Сотрудничество</a><a href="../kontakty/kontakty.html">Контакты</a></div>
+    </div>
+    <hr class="footer-line" style="margin:0 0 20px">
+    <div class="footer-bottom">
+      <p>2026, Аудитерия. Все права защищены.</p>
+      <div class="footer-links"><a href="#">Политика конфиденциальности</a><a href="#">Лицензионное соглашение</a></div>
+      <div class="footer-payments"><img src="../images/pngwing (1).png" alt="Visa"><img src="../images/pngwing (2).png" alt="Mastercard"></div>
+    </div>
+  </footer>
+
+</body>
+</html>

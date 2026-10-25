@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a class="logo" href="./index.html"><img src="./images/Group 16015.png" alt="Аудитерия"></a>
+    <nav class="header-nav">
+      <a href="./папки/kak-kupit.html">Как купить</a>
+      <a href="./папки/faq.html">F.A.Q</a>
+      <a href="./папки/kontakty.html">Контакты</a>
+      <a href="./папки/men-haqimda.html">Men haqimda</a>
+    </nav>
+    <div class="header-right">
+      <div class="search-box"><img src="./images/search.png" alt=""><input type="text" placeholder="Поиск..."></div>
+      <input type="checkbox" id="theme" class="theme-toggle">
+      <label for="theme" class="theme-label" title="Dark mode" aria-label="Dark mode"></label>
+      <input type="checkbox" id="reg-toggle" class="modal-toggle">
+      <label for="reg-toggle" class="btn-outline">Ro'yxatdan o'tish</label>
+      <div class="modal">
+        <label for="reg-toggle" class="modal-overlay"></label>
+        <div class="modal-content">
+          <label for="reg-toggle" class="close-btn" title="Yopish">×</label>
+          <h2>Ro'yxatdan o'tish</h2>
+          <form>
+            <input type="text" placeholder="Ismingiz" required>
+            <input type="text" placeholder="Familiyangiz" required>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Parolingiz" required>
+            <button type="submit">Ro'yxatdan o'tish</button>
+          </form>
+        </div>
+      </div>
+      <input type="checkbox" id="login-toggle" class="modal-toggle">
+      <label for="login-toggle" class="btn-filled">Kirish</label>
+      <div class="modal">
+        <label for="login-toggle" class="modal-overlay"></label>
+        <div class="modal-content">
+          <label for="login-toggle" class="close-btn" title="Yopish">×</label>
+          <h2>Kirish</h2>
+          <form>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Parolingiz" required>
+            <button type="submit">Kirish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="owl-carousel owl-theme">
+      <div class="item hero-slide slide-1">
+        <div class="container">
+          <h1>Книги, которые вам хочется слушать</h1>
+          <p>Лучшая подборка аудиокниг по психологии и саморазвитию за все годы издательства.</p><a class="hero-btn"
+            href="#novinki">Выбрать книгу</a>
+        </div>
+      </div>
+      <div class="item hero-slide slide-2">
+        <div class="container">
+          <h1>Увлекательные истории в формате аудио</h1>
+          <p>Слушайте любимые произведения в любом месте и в любое время.</p><a class="hero-btn" href="#novinki">Выбрать
+            книгу</a>
+        </div>
+      </div>
+      <div class="item hero-slide slide-3">
+        <div class="container">
+          <h1>Развивайтесь каждый день вместе с нами</h1>
+          <p>Получите доступ к эксклюзивной библиотеке бестселлеров со всего мира.</p><a class="hero-btn"
+            href="#novinki">Выбрать книгу</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <a class="week" href="./папки/1-kitob.html">
+      <img src="./images/1-img.png" alt="«Таблеточку, Ваше Темнейшество?»">
+      <div class="week-text">
+        <span class="week-tag">Сейчас в тренде</span>
+        <h2>Таблеточку, Ваше Темнейшество?</h2>
+        <p class="week-author">Лира Алая</p>
+        <p>История, которая затягивает с первых минут. Послушайте бесплатный фрагмент и решите сами.</p>
+        <span class="week-btn">Слушать фрагмент</span>
+      </div>
+    </a>
+  </section>
+
+  <section class="section" id="novinki">
+    <div class="section-header">
+      <h2>Новинки</h2><button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <a class="card" href="./папки/1-kitob.html"><img src="./images/1-img.png"
+          alt="«Таблеточку, Ваше Темнейшество?»">
+        <p class="author">Лира Алая</p>
+        <p class="title">«Таблеточку, Ваше Темнейшество?»</p>
+      </a>
+      <a class="card" href="./папки/2-kitob.html"><img src="./images/2-img.png" alt="Большая кража">
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">Большая кража</p>
+      </a>
+      <a class="card" href="./папки/3-kitob.html"><img src="./images/3-img.png" alt="Тайник">
+        <p class="author">Мария Карташева</p>
+        <p class="title">Тайник</p>
+      </a>
+      <a class="card" href="./папки/4-kitob.html"><img src="./images/4-img.png" alt="Тонкое искусство пофигизма">
+        <p class="author">Марк Мэнсон</p>
+        <p class="title">Тонкое искусство пофигизма</p>
+      </a>
+      <a class="card" href="./папки/5-kitob.html"><img src="./images/5.8-img.png" alt="Кафе «Берлин»">
+        <p class="author">Татьяна Ма</p>
+        <p class="title">Кафе «Берлин»</p>
+      </a>
+    </div>
+    <div class="section-header" id="popular">
+      <h2>Популярное</h2><button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <a class="card" href="./папки/6-kitob.html"><img src="./images/6-img.png" alt="Бремя страстей человеческих">
+        <div class="heart-icon icon-1"></div>
+        <p class="author">Сомерсет Моэм</p>
+        <p class="title">Бремя страстей человеческих</p>
+      </a>
+      <a class="card" href="./папки/7-kitob.html"><img src="./images/7-img.png" alt="«Линкольн» для адвоката">
+        <div class="heart-icon icon-2"></div>
+        <p class="author">Майкл Коннелли</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </a>
+      <a class="card" href="./папки/8-kitob.html"><img src="./images/5.8-img.png" alt="Кафе «Берлин»">
+        <div class="heart-icon icon-3"></div>
+        <p class="author">Татьяна Ма</p>
+        <p class="title">Кафе «Берлин»</p>
+      </a>
+      <a class="card" href="./папки/9-kitob.html"><img src="./images/9-img.png" alt="Медвежий угол">
+        <p class="author">Фредрик Бакман</p>
+        <p class="title">Медвежий угол</p>
+      </a>
+      <a class="card" href="./папки/10-kitob.html"><img src="./images/10-img.png" alt="С жизнью наедине">
+        <p class="author">Кристин Ханна</p>
+        <p class="title">С жизнью наедине</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="editor">
+    <div class="section-header">
+      <h2>Выбор редакции</h2><button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <a class="card" href="./10-kitob/10-kitob.html"><img src="./images/11-img.png" alt="Крестный отец">
+        <p class="author">Марио Пьюзо</p>
+        <p class="title">Крестный отец</p>
+      </a>
+      <a class="card" href="./11-kitob/11-kitob.html"><img src="./images/12-img.png" alt="Тени прошлого">
+        <p class="author">Автор не указан</p>
+        <p class="title">Тени прошлого</p>
+      </a>
+      <a class="card" href="./12-kitob/12-kitob.html"><img src="./images/13-img.png" alt="Алмазная колесница">
+        <p class="author">Борис Акунин</p>
+        <p class="title">Алмазная колесница</p>
+      </a>
+      <a class="card" href="./13-kitob/13-kitob.html"><img src="./images/14-img.png" alt="Бруклин">
+        <p class="author">Колм Тойбин</p>
+        <p class="title">Бруклин</p>
+      </a>
+      <a class="card" href="./14-kitob/14-kitob.html"><img src="./images/15-img.png" alt="Низший 6">
+        <p class="author">Автор не указан</p>
+        <p class="title">Низший 6</p>
+      </a>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="stat"><b>10&nbsp;000</b><span>аудиокниг</span></div>
+    <div class="stat"><b>500</b><span>профессиональных чтецов</span></div>
+    <div class="stat"><b>250&nbsp;000</b><span>слушателей</span></div>
+    <div class="stat"><b>24</b><span>часа в сутки на связи</span></div>
+  </div>
+
+  <section class="section">
+    <h2 class="block-title">Почему Аудитерия?</h2>
+    <div class="features">
+      <div class="feature"><i class="fa-solid fa-headphones"></i>
+        <h3>Профессиональные чтецы</h3>
+        <p>Каждую книгу озвучивают актёры, поэтому слушать приятно.</p>
+      </div>
+      <div class="feature"><i class="fa-solid fa-mobile-screen"></i>
+        <h3>Везде и всегда</h3>
+        <p>Слушайте на телефоне, планшете и компьютере.</p>
+      </div>
+      <div class="feature"><i class="fa-solid fa-gift"></i>
+        <h3>Бесплатные фрагменты</h3>
+        <p>Прослушайте начало книги перед покупкой.</p>
+      </div>
+      <div class="feature"><i class="fa-solid fa-shield-halved"></i>
+        <h3>Безопасная оплата</h3>
+        <p>Visa и Mastercard через защищённый платёж.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="block-title">Отзывы слушателей</h2>
+    <div class="reviews">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>Слушаю по дороге на работу. Очень удобно!</p>
+        <div class="who">Анна К.</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>Большой выбор и приятные цены. Рекомендую.</p>
+        <div class="who">Дмитрий П.</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>Лучшие чтецы. Уже купила шесть книг.</p>
+        <div class="who">Елена С.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section partners">
+    <img src="./images/22.png" alt="Netflix"><img src="./images/pngwing 7.png" alt="Amazon"><img
+      src="./images/pngwing.png" alt="Avon"><img src="./images/Group 16015.png" alt="Аудитерия"><img
+      src="./images/DELL.png  " alt="Dell">
+  </section>
+
+  <hr class="footer-line">
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand"><img src="./images/Group 16015.png" alt="Аудитерия"></div>
+      <div class="footer-col">
+        <h3>Жанры</h3><a href="./index.html#janrlar">Роман</a><a href="./index.html#janrlar">Детектив</a><a
+          href="./index.html#janrlar">Фэнтези</a><a href="./index.html#janrlar">Классика</a><a
+          href="./index.html#janrlar">Все жанры</a>
+      </div>
+      <div class="footer-col">
+        <h3>Категории</h3><a href="./index.html#popular">Популярное</a><a href="./index.html#novinki">Новинки</a><a
+          href="./index.html#editor">Выбор редакции</a>
+      </div>
+      <div class="footer-col">
+        <h3>Разделы</h3><a href="./папки/kak-kupit.html">Как купить</a><a href="./папки/faq.html">Часто задаваемые
+          вопросы</a><a href="./папки/kontakty.html">Сотрудничество</a><a href="./папки/men-haqimda.html">Контакты</a>
+      </div>
+    </div>
+    <hr class="footer-line" style="margin:0 0 20px">
+    <div class="footer-bottom">
+      <p>2026, Аудитерия. Все права защищены.</p>
+      <div class="footer-links"><a href="#">Политика конфиденциальности</a><a href="#">Лицензионное соглашение</a></div>
+      <div class="footer-payments"><img src="./images/pngwing (1).png" alt="Visa"><img src="./images/pngwing (2).png"
+          alt="Mastercard"></div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(function () { $(".owl-carousel").owlCarousel({ items: 1, loop: true, autoplay: true, autoplayTimeout: 3500, autoplayHoverPause: true, nav: false, dots: true, smartSpeed: 600 }); });
+  </script>
+</body>
+
+</html>
